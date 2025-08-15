@@ -125,15 +125,6 @@
     "C_Cpp.default.cppStandard": "c++11",
     "C_Cpp.default.cStandard": "c11",
     "workbench.startupEditor": "none",
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": true,
-        "markdown": true,
-        "scminput": false,
-        "yaml": false,
-        "python": true,
-        "cpp": true
-    },
     "debug.onTaskErrors": "showErrors",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -144,38 +135,29 @@
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "git.openRepositoryInParentFolders": "always",
-    "workbench.iconTheme": "material-icon-theme",
     "notebook.markup.fontSize": 16,
-    "cmake.showOptionsMovedNotification": false,
     "notebook.output.fontFamily": "Fira Code",
-    "terminal.integrated.defaultProfile.windows": "PowerShell7",
-    "terminal.integrated.automationProfile.windows": {
-        "path": "D:\\PowerShell\\7\\pwsh.exe",
-        "args": [
-            "-nologo"
-        ]
-    },
-    "terminal.integrated.profiles.windows": {
-        "PowerShell7": {
-            "source": "PowerShell",
-            "path": "D:\\PowerShell\\7\\pwsh.exe",
-            "args": [
-                "-nologo"
-            ]
-        },
-    },
     "terminal.integrated.fontSize": 13,
     "editor.lineHeight": 30,
     "editor.cursorSmoothCaretAnimation": "on",
-    "github.copilot.editor.enableAutoCompletions": true,
     "jupyter.askForKernelRestart": false,
     "explorer.confirmPasteNative": false,
     "cmake.pinnedCommands": [
         "workbench.action.tasks.configureTaskRunner",
         "workbench.action.tasks.runTask"
     ],
-    "latex-workshop.formatting.latex": "latexindent",
     "debug.console.fontSize": 13,
     "debug.inlineValues": "on",
-    "terminal.integrated.enableMultiLinePasteWarning": false
+    "git.confirmSync": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "lldb.suppressUpdateNotifications": true,
+    "python.defaultInterpreterPath": "/Users/zlysm/miniconda3/bin/python",
+    "github.copilot.enable": {
+        "plaintext": true,
+        "markdown": true
+    },
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "github.copilot.nextEditSuggestions.enabled": true
 }

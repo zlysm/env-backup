@@ -127,6 +127,12 @@ unset __conda_setup
 ## environment variables
 # home brew
 export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/sbin:$PATH
 
 # vscode
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/zlysm/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
